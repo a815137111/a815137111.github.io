@@ -6,7 +6,7 @@
         content="Accelerate Neural Subspace-Based Reduced-Order Solver of Deformable Simulation by Lipschitz Optimization.">
   <meta name="keywords" content="Deformable Simulation, Lipschitz Optimization, Neural Reduced-Order Solver">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Accelerate Neural Subspace-Based Reduced-Order Solver of Deformable Simulation by Lipschitz Optimization</title>
+  <title>Instruct2See: Learning to Remove Any Obstructions Across Distributions</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -91,27 +91,27 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-3 publication-title">Accelerate Neural Subspace-Based Reduced-Order Solver of Deformable Simulation by Lipschitz Optimization</h1>
-          <h2 class="title is-size-5" style="color: red">SIGGRAPH Asia 2024 (ACM Transactions on Graphics)</h2>
+          <h1 class="title is-3 publication-title">Instruct2See: Learning to Remove Any Obstructions Across Distributions</h1>
+          <h2 class="title is-size-5" style="color: red">ICML 2025</h2>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              Aoran Lyu<sup>1, 3, *</sup>,
+              Junhang Li<sup>1, 2, *</sup>,
             </span>
             <span class="author-block">
-              Shixian Zhao<sup>1, *</sup>,
+              Yu Guo<sup>2, 3，*</sup>,
             </span>
             <span class="author-block">
               Chuhua Xian<sup>1, †</sup>,
             </span>
             <span class="author-block">
-              Zhihao Cen<sup>1</sup>,
+              Shengfeng He<sup>2</sup>,
             </span>
-            <span class="author-block">
+<!--             <span class="author-block">
               Hongmin Cai<sup>1</sup>,
             </span>
             <span class="author-block">
               Guoxin Fang<sup>2, †</sup>
-            </span>
+            </span> -->
             
             <!-- <span class="author-block">
               <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
@@ -122,19 +122,19 @@
 
       <div class="column has-text-centered">
         <div class="is-size-6 publication-authors">
-          <span class="author-block">1.South China University of Technology, China</span>
+          <span class="author-block">1.School of Computer Science and Engineering, South China University of Technology</span>
         </div>
         <div class="is-size-6 publication-authors">
-          <span class="author-block">2.The Chinese University of Hong Kong, China</span>
+          <span class="author-block">2.School of Computing and Information Systems, Singapore Management University</span>
         </div>
         <div class="is-size-6 publication-authors">
-          <span class="author-block">3.The University of Manchester, United Kingdom</span>
+          <span class="author-block">3.School of Navigation, Wuhan University of Technology</span>
         </div>
         <div class="is-size-6 publication-authors">
-          <span class="author-block">* Equal contribution of the first two authors</span>
+          <span class="author-block">* Equal contribution</span>
         </div>
         <div class="is-size-6 publication-authors">
-          <span class="author-block">† Corresponding authors (Email: chhxian@scut.edu.cn, guoxinfang@cuhk.edu.hk)</span>
+          <span class="author-block">† Corresponding authors (Email: chhxian@scut.edu.cn, shengfenghe@smu.edu.sg)</span>
         </div>
       </div>
 
@@ -151,7 +151,7 @@
             </a>
           </span> -->
           <span class="link-block">
-            <a href="https://arxiv.org/abs/2409.03807"
+            <a href=""
                 class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                   <i class="ai ai-arxiv"></i>
@@ -161,7 +161,7 @@
           </span>
           <!-- Video Link. -->
           <span class="link-block">
-            <a href="https://youtu.be/o1-f6T_XXHU?si=-zPMIZRfcoAUpSaU"
+            <a href=""
                 class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                   <i class="fab fa-youtube"></i>
@@ -171,7 +171,7 @@
           </span>
           <!-- Code Link. -->
           <span class="link-block">
-            <a href="https://github.com/lip-neural-subspace/demo"
+            <a href=""
                 class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                   <i class="fab fa-github"></i>
@@ -216,7 +216,7 @@
       <img src="./static/images/fig-teaser.png"
                  class="interpolation-image"/>
       
-      <h2 class="caption is-size-6 is-centered has-text-centered has-text-justified">
+<!--       <h2 class="caption is-size-6 is-centered has-text-centered has-text-justified">
           This paper introduces a Lipschitz optimization method that can significantly accelerate the convergence speed of reduced-order 
           simulations driven by neural-network-based approaches. (a) The deformation process can be formulated as a path through a configuration 
           manifold \(\mathcal{M} \subseteq \mathbb{R}^n\), where reduced-order solvers tend to find a mapping \(f_\theta(z)\) that maps a low-dimensional 
@@ -224,7 +224,7 @@
         subspace by minimizing the second-order Lipschitz regularization energy, which substantially improves convergence speed when using iterative solvers like
         Newton's method. (c, d) Compared to conventional linear subspace methods (driven by PCA) and direct neural subspace constructions, our method achieves
         faster convergence and maintains quality when using the same subspace dimension.
-      </h2>
+      </h2> -->
     </div>
   </div>
 </section>
@@ -298,14 +298,23 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Reduced-order simulation is an emerging method for accelerating physical
-            simulations with high DOFs, and recently developed neural-network-based
-            methods with nonlinear subspaces have been proven effective in diverse
-            applications as more concise subspaces can be detected. However, the complexity and landscape of simulation objectives within the subspace have not
-            been optimized, which leaves room for enhancement of the convergence
-            speed.
+            Images are often obstructed by various obstacles due to capture limitations, 
+            hindering the observation of objects of interest. Most existing methods address occlusions 
+            from specific elements like fences or raindrops, but are constrained by the wide
+            range of real-world obstructions, making comprehensive data collection impractical.
+            To overcome these challenges, we propose Instruct2See, a novel zero-shot framework 
+            capable of handling both seen and unseen obstacles. The core idea of our approach 
+            is to unify obstruction removal by treating it as a soft-hard mask
+            restoration problem, where any obstruction can be represented using multi-modal prompts, 
+            such as visual semantics and textual instructions, processed through a cross-attention 
+            unit to enhance contextual understanding and improve mode control. 
+            Additionally, a tunable mask adapter allows for dynamic soft masking, enabling real-
+            time adjustment of inaccurate masks. Extensive experiments on both in-distribution 
+            and out-of-distribution obstacles show that Instruct2See consistently achieves 
+            strong performance and generalization in obstruction removal, regardless of
+            whether the obstacles were present during the training phase.
           </p>
-          <p>
+<!--           <p>
             This work focuses on this point by proposing a general method for
             finding optimized subspace mappings, enabling further acceleration of neural
             reduced-order simulations while capturing comprehensive representations
@@ -324,7 +333,7 @@
             approach offers significant potential for accelerating physical simulations,
             and can be a good add-on to existing neural-network-based solutions in
             modeling complex deformable objects.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
@@ -578,7 +587,7 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{lyu2024accelerate,
+<!--     <pre><code>@article{lyu2024accelerate,
       title={Accelerate Neural Subspace-Based Reduced-Order Solver of Deformable Simulation by Lipschitz Optimization},
       author={Lyu, Aoran and Zhao, Shixian and Xian, Chuhua and Cen, Zhihao and Cai, Hongmin and Fang, Guoxin},
       journal={ACM Transactions on Graphics (TOG)},
@@ -587,7 +596,7 @@
       pages={1--10},
       year={2024},
       publisher={ACM New York, NY, USA}
-    }</code></pre>
+    }</code></pre> -->
   </div>
 </section>
 
@@ -618,9 +627,9 @@
             Please remember to remove the analytics code included in the header of the website which
             you do not want on your website.
           </p> -->
-          <p>
+<!--           <p>
             Website templete from <a href="https://github.com/nerfies/nerfies.github.io">here</a>.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
